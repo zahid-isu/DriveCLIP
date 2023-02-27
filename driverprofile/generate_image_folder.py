@@ -1,3 +1,6 @@
+""" Weiheng's script to prepare the SF dataset split"""
+
+
 from torch.utils.data import Dataset
 from PIL import Image
 import os
