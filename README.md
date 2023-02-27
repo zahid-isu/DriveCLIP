@@ -5,7 +5,7 @@
 Here is the codebase for running the frame based DriveCLIP framework.
 
 ### Total 8 distracted Classes:
-
+```
 0  "driver is adjusting his or her hair while driving a car"
 1  "driver is drinking water from a bottle while driving a car"
 2  "driver is eating while driving a car"
@@ -14,6 +14,7 @@ Here is the codebase for running the frame based DriveCLIP framework.
 5  "driver is singing a song with music and smiling while driving"
 6  "driver is talking to the phone on hand while driving a car"
 7  "driver is yawning while driving a car"
+```
 
 
 1. Data folder structure should be like this: [0-7] action classes
