@@ -4,6 +4,13 @@
 
 Here is the codebase for running the frame based DriveCLIP framework.
 
+### Datasets
+```
+1. StateFarm
+2. SynDD1
+3. AUC
+```
+
 ### Total 8 distracted Classes:
 ```
 0  "driver is adjusting his or her hair while driving a car"
