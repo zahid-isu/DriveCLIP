@@ -58,8 +58,8 @@ Here is the codebase for running the frame based DriveCLIP framework.
 
 Steps:
 1. Set up the conda environment and run requirements.txt files from CLIP main repo
-2. Upload .mp4 video files into synvid folder and run the video process script to extract frames at different fps.
-3. Feed the frames to model 
+2. Upload .mp4 video files into synvid folder and run the video process script to extract frames at different fps. Store the frames in [0-7] folder structure shown above.
+3. Feed the frames to CLIP model 
 4. run the run files 
 
 
