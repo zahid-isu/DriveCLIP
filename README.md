@@ -5,7 +5,7 @@
 Here is the codebase for running the frame based DriveCLIP framework.
 
 
-1. Folder structure should be like this:
+1. Data folder structure should be like this: [0-7] action classes
 
 ```
      ./data
