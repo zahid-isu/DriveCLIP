@@ -5,6 +5,57 @@
 Here is the codebase for running the frame based DriveCLIP framework.
 
 
+1. Folder structure should be like this:
+
+```
+     ./data
+      ├── syn10fps_dash
+      │   ├── 0
+      │   ├── 1
+      │   ├── 2
+      │   ├── 3
+      │   ├── 4
+      │   ├── 5
+      │   ├── 6
+      │   └── 7
+      ├── syn15fps_dash
+      │   ├── 0
+      │   ├── 1
+      │   ├── 2
+      │   ├── 3
+      │   ├── 4
+      │   ├── 5
+      │   ├── 6
+      │   └── 7
+```
+
+2. The subject splitting profile is saved in [subject_splitting_profile.json](.driverprofile/subject_splitting_profile.json).
+
+```json
+"fold0": {
+    "train": [
+        "35133",
+        "65818",
+        "42271",
+        "19332",
+        "79336",
+        "56306",
+        "25470",
+        "24491",
+        "76803",
+        "24026"
+    ],
+    "val": [
+        "49381",
+        "38058"
+    ],
+    "test": [
+        "76189",
+        "61597"
+    ]
+}
+```
+
 Steps:
 1. Set up the conda environment and run requirements.txt files from CLIP main repo
 2. Upload .mp4 video files into synvid folder and run the video process script to extract frames at different fps.
