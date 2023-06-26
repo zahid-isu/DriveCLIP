@@ -70,5 +70,5 @@ Steps for frame-based experiments:
 3. Feed the frames to CLIP model 
 4. run the run files 
 
-### Repo for model comparison: [Link] (https://github.com/suzoosuagr/CLIP_Zahid.git)
-### Repo for VideoCLIP: [Link] (https://github.com/jiajingchen113322/DeepInsigth.git)
+### Repo for model comparison: [Link](https://github.com/suzoosuagr/CLIP_Zahid.git)
+### Repo for VideoCLIP: [Link](https://github.com/jiajingchen113322/DeepInsigth.git)
