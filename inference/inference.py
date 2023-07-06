@@ -7,7 +7,7 @@ import json
 import joblib
 from torch.utils.data import DataLoader
 from tqdm import tqdm
-from frame import extract_frames
+from inference.DriveCLIP.inference.frame import extract_frames
 
 # Select model backbone
 model_name= 'ViT-L/14'
