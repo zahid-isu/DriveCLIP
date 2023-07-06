@@ -1,5 +1,5 @@
 # DriveCLIP
-## Reference link: [Paper link](https://arxiv.org/abs/2306.10159)  
+## Reference link: [Publication link](https://arxiv.org/abs/2306.10159)  
 (please cite this paper or use it for reference)
 
 Here is the codebase for running the frame based DriveCLIP framework.
