@@ -62,8 +62,18 @@ Here is the codebase for running the frame based DriveCLIP framework.
     ]
 }
 ```
+## Steps to run the inference on video file:
 
-Steps for frame-based experiments:
+1. Download the video and save it in .MP4 format in video/ folder
+2. Create a conda environment and run the ``` requirements.txt``` file
+3. Open ```inference.py``` and specify the video path, CLIP backbone (model_name) and FPS (default=1FPS). Then run the python file from terminal by simple ```python inference.py``` command.
+4. Prediction results will be stored in a .json file named ```frame_prediction.json``` This file consists of the following format:
+
+        ``` { frame_01_path: {prediction label, [list of prediction prob. scores]}, 
+              frame_02_path: {prediction label, [list of prediction prob. scores]}, ... } ```
+
+
+## Steps for frame-based experiments:
 1. Set up the conda environment and run requirements.txt files from CLIP main repo
 2. Upload .mp4 video files into synvid folder (see `synvid/video_list.csv`) and run the `frame.py` to extract frames at different fps. Store the frames in [0-7] folder structure shown above.
 3. Check the driver profile folder to prepare the driver split
