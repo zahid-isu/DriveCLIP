@@ -1,0 +1,8 @@
+*.log
+*.data
+*.data1
+*.video
+*.frame
+*.outputs
+build/
+**/*.csv
