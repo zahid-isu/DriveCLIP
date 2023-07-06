@@ -62,6 +62,7 @@ Here is the codebase for running the frame based DriveCLIP framework.
     ]
 }
 ```
+## Steps to run the inference on video file:
 
 ## Steps to run the inference on video file:
 
