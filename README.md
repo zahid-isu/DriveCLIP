@@ -27,6 +27,8 @@ For training the models, we used 8 distracted action classes. They (class-ID & c
 ```
  
 Therefore, the model can predict only these 8 classes. Also, there are some variants of the model weights. (ViT-L/14 backbone based model gives the best result)
+
+
 2. Data folder structure should be like this: [0-7] action classes on SynDD1 dataset
 
 ```
@@ -51,7 +53,7 @@ Therefore, the model can predict only these 8 classes. Also, there are some vari
       │   └── 7
 ```
 
-2. The subject splitting profile files are saved in `driverprofile` folder. For SynDD1 see `subject_splitting_profile.json` and for StateFarm see `driver_img_list.csv`.
+3. The subject splitting profile files are saved in `driverprofile` folder. For SynDD1 see `subject_splitting_profile.json` and for StateFarm see `driver_img_list.csv`.
 
 ```json
 "fold0": {
