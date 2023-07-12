@@ -12,7 +12,22 @@ Here is the codebase for running the frame based DriveCLIP framework.
 
 
 
-1. Data folder structure should be like this: [0-7] action classes on SynDD1 dataset
+1. The frame-based CLIP model was trained to predict the distracted driving actions for each frame. So, while doing the inference, the model will assign each frame with a predicted action label and the confidence score (probability score for that certain predicted action label).
+
+For training the models, we used 8 distracted action classes. They (class-ID & class label) are as follows:
+ ```
+0 "driver is adjusting his or her hair while driving a car"
+1 "driver is drinking water from a bottle while driving a car"
+2 "driver is eating while driving a car"
+3 "driver is picking something from the floor while driving a car"
+4 "driver is reaching behind to the backseat while driving a car"
+5 "driver is singing a song with music and smiling while driving"
+6 "driver is talking to the phone on hand while driving a car"
+7 "driver is yawning while driving a car"
+```
+ 
+Therefore, the model can predict only these 8 classes. Also, there are some variants of the model weights. (ViT-L/14 backbone based model gives the best result)
+2. Data folder structure should be like this: [0-7] action classes on SynDD1 dataset
 
 ```
      ./data
@@ -62,7 +77,6 @@ Here is the codebase for running the frame based DriveCLIP framework.
     ]
 }
 ```
-
 ## Steps to run the inference on the video file:
 
 1. Download the video and save it in .MP4 format in a video/ folder
