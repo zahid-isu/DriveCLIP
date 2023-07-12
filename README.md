@@ -86,7 +86,7 @@ Therefore, the model can predict only these 8 classes. Also, there are some vari
 3. Open ```inference.py``` and specify the CLIP backbone (model_name) and FPS (default=1FPS). Then run the python file from terminal by following the command:
         ```python inference.py --video video_path –frame Extracted_frame_directory_path```
 For example:
-        ```python inference.py –-video video/Dashboard_user_id_13522_NoAudio_5.MP4 --frame frame```
+        ```python inference.py –-video video/Dashboard_user_id_13522_NoAudio_5.MP4 --frame frame_folder```
 
 5. Prediction results will be stored in a .json file named ```frame_prediction.json``` This file consists of the following format:
 
