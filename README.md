@@ -1,5 +1,6 @@
-# DriveCLIP
-## Reference link: [Publication link](https://arxiv.org/abs/2306.10159)  
+# Vision-Language Models can Identify Distracted Driver Behavior from Naturalistic Videos
+
+## Reference link: [Vision-Language Models can Identify Distracted Driver Behavior from Naturalistic Videos](https://arxiv.org/abs/2306.10159)  
 (please cite this paper or use it for reference)
 
 Here is the codebase for running the frame based DriveCLIP framework.
