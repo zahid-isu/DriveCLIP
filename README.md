@@ -3,7 +3,8 @@
 Here is the codebase for running the frame based DriveCLIP framework. The summary results on different distracted driving datasets are:
 ![summary_results](img/summary_result_clip.png)
 
-| Dataset  | Modality | # of Classes | link |
+### Datasets:
+| Dataset  | Modality | # of Classes | Link |
 |----------|----------|----------|----------|
 | DMD | RGB | 10  | [link](https://dmd.vicomtech.org/) |
 | StateFarm | RGB | 10  | [link](https://www.kaggle.com/competitions/state-farm-distracted-driver-detection/data) |
@@ -11,10 +12,10 @@ Here is the codebase for running the frame based DriveCLIP framework. The summar
 | SAM-DD | RGB | 10 | [link](https://yanghh.io/SAM-DD/) |
 
 
-
+### Details:
 1. The frame-based CLIP model was trained to predict the distracted driving actions for each frame. So, while doing the inference, the model will assign each frame with a predicted action label and the confidence score (probability score for that certain predicted action label).
 
-For training the models, we used 8 distracted action classes. They (class-ID & class label) are as follows:
+For training on SynDD1 dataset, we used 8 distracted action classes. They (class-ID & class label) are as follows:
  ```
 0 "driver is adjusting his or her hair while driving a car"
 1 "driver is drinking water from a bottle while driving a car"
@@ -29,7 +30,7 @@ For training the models, we used 8 distracted action classes. They (class-ID & c
 Therefore, the model can predict only these 8 classes. Also, there are some variants of the model weights. (ViT-L/14 backbone based model gives the best result)
 
 
-2. Data folder structure should be like this: [0-7] action classes on SynDD1 dataset
+2. Data folder structure (SynDD1) should be like this: [0-7] action classes on SynDD1 dataset
 
 ```
      ./data
