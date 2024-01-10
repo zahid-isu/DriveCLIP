@@ -1,6 +1,7 @@
 # [Vision-Language Models can Identify Distracted Driver Behavior from Naturalistic Videos](https://arxiv.org/abs/2306.10159)  
 
-Here is the codebase for running the frame based DriveCLIP framework.
+Here is the codebase for running the frame based DriveCLIP framework. The summary results on different distracted driving datasets are:
+![summary_results](img/summary_result_clip.png)
 
 | Dataset  | Modality | # of Classes | link |
 |----------|----------|----------|----------|
