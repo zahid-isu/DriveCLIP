@@ -2,13 +2,12 @@
 
 Here is the codebase for running the frame based DriveCLIP framework.
 
-### Datasets
-```
-1. StateFarm
-2. SynDD1
-3. DMD
-4. SAM-DD
-```
+| Dataset  | Modality | # of Classes | link |
+|----------|----------|----------|----------|
+| DMD | RGB | 10  | [link](https://dmd.vicomtech.org/) |
+| StateFarm | RGB | 10  | [link](https://www.kaggle.com/competitions/state-farm-distracted-driver-detection/data) |
+| SynDD1 | RGB | 8 | [link](https://doi.org/10.1016/j.dib.2022.108793) |
+| SAM-DD | RGB | 10 | [link](https://yanghh.io/SAM-DD/) |
 
 
 
