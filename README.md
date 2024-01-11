@@ -2,7 +2,7 @@
 
 Here is the codebase for running the frame based DriveCLIP framework. The summary results on different distracted driving datasets are:
 
-<img src="img/summary_result_clip.png" alt="summary_results" width="450" height="130" style="margin-right: 10px;"/> <img src="img/zero-shot_clip.png" alt="zero-shot_results" width="310" height="120"/>
+<img src="img/summary_result_clip.png" alt="summary_results" width="450" height="130" style="margin-right: 10px;"/> <img src="img/zero-shot_clip.png" alt="zero-shot_results" width="350" height="130"/>
 
 ### Datasets:
 | Dataset  | Modality | # of Classes | Link |
