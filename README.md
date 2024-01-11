@@ -1,14 +1,15 @@
 # [Vision-Language Models can Identify Distracted Driver Behavior from Naturalistic Videos](https://arxiv.org/abs/2306.10159)  
 
 Here is the codebase for running the frame based DriveCLIP framework. The summary results on different distracted driving datasets are:
-![summary_results](img/summary_result_clip.png)
+
+<img src="img/summary_result_clip.png" alt="summary_results" width="250"/> <img src="img/zero-shot_clip.png" alt="zero-shot_results" width="200"/>
 
 ### Datasets:
 | Dataset  | Modality | # of Classes | Link |
 |----------|----------|----------|----------|
 | DMD | RGB | 10  | [link](https://dmd.vicomtech.org/) |
 | StateFarm | RGB | 10  | [link](https://www.kaggle.com/competitions/state-farm-distracted-driver-detection/data) |
-| SynDD1 | RGB | 8 | [link](https://doi.org/10.1016/j.dib.2022.108793) |
+| SynDD1 | RGB | 18 | [link](https://doi.org/10.1016/j.dib.2022.108793) |
 | SAM-DD | RGB | 10 | [link](https://yanghh.io/SAM-DD/) |
 
 
