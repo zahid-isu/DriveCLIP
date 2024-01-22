@@ -5,12 +5,12 @@ Here is the codebase for running the frame based DriveCLIP framework. The summar
 <img src="img/summary_result_clip.png" alt="summary_results" width="450" height="130" style="margin-right: 10px;"/> <img src="img/zero-shot_clip.png" alt="zero-shot_results" width="350" height="130"/>
 
 ### Datasets:
-| Dataset  | Modality | # of Classes | Link |
-|----------|----------|----------|----------|
-| DMD | RGB | 10  | [link](https://dmd.vicomtech.org/) |
-| StateFarm | RGB | 10  | [link](https://www.kaggle.com/competitions/state-farm-distracted-driver-detection/data) |
-| SynDD1 | RGB | 18 | [link](https://doi.org/10.1016/j.dib.2022.108793) |
-| SAM-DD | RGB | 10 | [link](https://yanghh.io/SAM-DD/) |
+| Dataset  | Modality | # of Classes | Link | # of training samples
+|----------|----------|----------|----------|----------|
+| DMD | RGB | 10  | [link](https://dmd.vicomtech.org/) | 78917(per fold)
+| StateFarm | RGB | 10  | [link](https://www.kaggle.com/competitions/state-farm-distracted-driver-detection/data) | 20204 (per fold)
+| SynDD1 | RGB | 18 | [link](https://doi.org/10.1016/j.dib.2022.108793) | 4404 (1fps, dashboard)
+| SAM-DD | RGB | 10 | [link](https://yanghh.io/SAM-DD/) | 36839 (28 drivers)
 
 
 ### Details:
